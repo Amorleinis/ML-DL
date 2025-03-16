@@ -1,0 +1,11 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+    - some-pip-package
